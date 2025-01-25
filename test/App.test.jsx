@@ -22,7 +22,10 @@ test("Render the App component with a button that increases the count", async ()
     expect(counterButton).toHaveTextContent("count is 0");
 
     // Click on the button
+   
+    // Create a user 
     const user = userEvent.setup();
+
     // Implement the click action on the button
     await user.click(counterButton);
 
