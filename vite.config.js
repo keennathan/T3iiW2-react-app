@@ -7,6 +7,6 @@ export default defineConfig({
   test: {
     globals: true, // Means that we can use describe and expect without importing them
     environment: 'jsdom', // Tests work better to test its working in browser
-    setupFiles: "src/setupTests.ts", // Any test config before tests run
+    setupFiles: "src/setupTests.js", // Any test config before tests run
   }
 })
