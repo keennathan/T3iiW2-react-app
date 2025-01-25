@@ -1,5 +1,5 @@
 
-import { createContext, useState } from 'react';
+import { createContext, useState, useContext } from 'react';
 
 // This contenxt will store the JWT. By deafult, its empty.
 const UserAuthContext = createContext("");
